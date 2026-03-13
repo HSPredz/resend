@@ -1,0 +1,15 @@
+{
+  "name": "snipertoolx-bot",
+  "version": "1.0.0",
+  "description": "SniperToolX Telegram Control Panel Bot",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "dependencies": {
+    "node-telegram-bot-api": "^0.66.0",
+    "resend": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "@supabase/supabase-js": "^2.0.0"
+  }
+}
